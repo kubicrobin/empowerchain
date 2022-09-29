@@ -31,4 +31,8 @@ empowerd version --long | head
 empowerd init <MONIKER> --chain-id altruistic-1 && \
 empowerd config chain-id altruistic-1
 ```
+*Replace wallet name with your wallet name and remove ( < > ) as well*
+```
+empowerd keys add <WALLET_NAME>
+```
 
