@@ -27,4 +27,8 @@ make install && \
 empowerd version --long | head
 ```
 *Enter your node name in the moniker section ( < > ) remove it as well*
+```
+empowerd init <MONIKER> --chain-id altruistic-1 && \
+empowerd config chain-id altruistic-1
+```
 
