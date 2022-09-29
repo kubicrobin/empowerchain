@@ -36,5 +36,5 @@ empowerd config chain-id altruistic-1
 empowerd keys add <WALLET_NAME>
 ```
 *Create a genesis account, enter your wallet name in <walletname> and remove ( < > ) as well*
-  :warning:Save the secret words of your wallet:warning:
+ *:warning:Save the secret words of your wallet:warning:*
 
