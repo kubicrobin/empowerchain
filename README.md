@@ -38,4 +38,7 @@ empowerd keys add <WALLET_NAME>
 *Create a genesis account, enter your wallet name in <walletname> and remove ( < > ) as well*
   
 *:warning:Save the secret words of your wallet:warning:*
+```
+empowerd add-genesis-account <WALLET_NAME> 1000000umpwr
+  ```
 
