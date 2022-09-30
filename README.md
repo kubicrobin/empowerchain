@@ -42,5 +42,6 @@ empowerd keys add <WALLET_NAME>
 empowerd add-genesis-account <WALLET_NAME> 1000000umpwr
   ```
 *Create gentx*
+  
 *Enter your own information in the sections where I entered my information*
 
