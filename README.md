@@ -44,4 +44,17 @@ empowerd add-genesis-account <WALLET_NAME> 1000000umpwr
 *Create gentx*
   
 *Enter your own information in the sections where I entered my information*
+  ```
+ empowerd gentx <WALLET_NAME> 1000000umpwr \
+--chain-id=altruistic-1 \
+--moniker="<MONIKER>" \
+--commission-max-change-rate 0.1 \
+--commission-max-rate 0.2 \
+--commission-rate 0.05 \
+--pubkey $(empowerd tendermint show-validator) \
+--website="" \
+--security-contact="" \
+--identity="" \
+--details=""
+  ```
 
